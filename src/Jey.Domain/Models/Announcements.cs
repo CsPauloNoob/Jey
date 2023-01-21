@@ -14,8 +14,6 @@ namespace Jey.Domain.Models
         [Key]
         public int AnnouncementId { get; set; }
 
-        public ulong UserId { get; }
-
         public string AnnouncementName { get; set; }
 
         public int AnnouncementsQuantity { get; set; }
@@ -24,6 +22,9 @@ namespace Jey.Domain.Models
         
         public Coins PaymentType { get; set; }
 
+
+
+        public ulong UserId { get; }
         public User User { get; set; }
     }
 }
