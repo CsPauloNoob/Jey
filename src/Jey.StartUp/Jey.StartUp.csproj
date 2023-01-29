@@ -1,6 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -8,12 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="DsharpPlus" Version="4.3.0" />
-    <PackageReference Include="DsharpPlus.Interactivity" Version="4.3.0" />
     <PackageReference Include="DsharpPlus.SlashCommands" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Jey.Domain\Jey.Domain.csproj" />
+    <ProjectReference Include="..\Jey.Application\Jey.Application.csproj" />
+    <ProjectReference Include="..\jey.DI\jey.DI.csproj" />
   </ItemGroup>
 
 </Project>

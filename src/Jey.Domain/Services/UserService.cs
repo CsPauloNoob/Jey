@@ -8,6 +8,9 @@ namespace Jey.Domain.Services
 {
     public class UserService
     {
-
+        public string Message()
+        {
+            return "Foi!!!";
+        }
     }
 }
