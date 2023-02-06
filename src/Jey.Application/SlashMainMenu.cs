@@ -17,7 +17,7 @@ namespace Jey.Application
 
 
         [SlashCommand("menu", "menu inicial")]
-        public async Task Menu(InteractionContext ctx)
+        async Task Menu(InteractionContext ctx)
         {
             await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
 
@@ -27,14 +27,26 @@ namespace Jey.Application
 
         }
 
+
+
         [SlashCommand("car", "a car")]
-        public async Task Car(InteractionContext ctx)
+        async Task Car(InteractionContext ctx)
         {
             await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
 
             var message = _userService.Message();
 
             await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent(message));
+        }
+
+
+
+        [SlashCommand("Registrar", "Olá, registre-se aqui")]
+        async Task Register(InteractionContext ctx)
+        {
+            await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
+
+
         }
     }
 }

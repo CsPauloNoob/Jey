@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Jey.Domain
 {
-    public interface IRepository<T>
+    public class Commons
     {
-        public T GetById(ulong id);
-
-        public List<T> GetAll();
-
-        public void Save(T obj);
+        public ulong Id { get; set; }
     }
 }

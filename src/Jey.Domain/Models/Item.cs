@@ -10,7 +10,7 @@ namespace Jey.Domain.Models
 {
     public class Item
     {
-        [Required]
+        [Key]
         public string ItemKeyOrLink { get; set; }
 
         [MaxLength(64)]

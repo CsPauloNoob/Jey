@@ -2,6 +2,9 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Jey.Infrastructure.Contexts;
+using Jey.Infrastructure.Repositories;
+using Jey.Domain;
+using Jey.Domain.Models;
 
 namespace Jey.DI
 {
@@ -9,8 +12,11 @@ namespace Jey.DI
     {
         public static void Configure(IServiceCollection services)
         {
+            //services.AddDbContext<JeyContext>(c => c.UseSqlite($"Data Source={Path.Combine(Directory.GetCurrentDirectory(), "dbbot.db")}"));
+
             services.AddScoped<UserService>();
-            services.AddDbContext<JeyContext>(c => c.UseSqlite($"Data Source={Environment.CurrentDirectory}"));
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IRepository<User>), typeof(UserRepository));
         }
     }
 }

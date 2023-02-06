@@ -1,4 +1,6 @@
-﻿namespace Jey.StartUp
+﻿using Jey.Infrastructure.Contexts;
+
+namespace Jey.StartUp
 {
     internal class Program
     {

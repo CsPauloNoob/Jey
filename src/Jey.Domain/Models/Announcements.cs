@@ -24,7 +24,8 @@ namespace Jey.Domain.Models
 
 
 
-        public ulong UserId { get; }
+        public ulong UserIdAnnouncement { get; }
+        [ForeignKey("UserIdAnnouncement")]
         public User User { get; set; }
     }
 }

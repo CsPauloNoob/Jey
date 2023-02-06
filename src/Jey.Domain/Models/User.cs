@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Jey.Domain.Models
 {
-    public class User
+    public class User :Commons
     {
         public ulong UserId { get; set; }
 
