@@ -1,0 +1,17 @@
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\bin\Debug\net6.0\Jey.Infrastructure.deps.json
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\bin\Debug\net6.0\Jey.Infrastructure.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\bin\Debug\net6.0\Jey.Infrastructure.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.AssemblyInfo.cs
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\refint\Jey.Infrastructure.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\ref\Jey.Infrastructure.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\bin\Debug\net6.0\Jey.Infrastructure.runtimeconfig.json
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\bin\Debug\net6.0\Jey.Domain.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\bin\Debug\net6.0\Jey.Domain.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.csproj.CopyComplete
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Infrastructure\obj\Debug\net6.0\Jey.Infrastructure.genruntimeconfig.cache

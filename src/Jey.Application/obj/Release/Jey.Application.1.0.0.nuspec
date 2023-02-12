@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Jey.Application</id>
+    <version>1.0.0</version>
+    <authors>Jey.Application</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Jey.Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DsharpPlus" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="DsharpPlus.Interactivity" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="DsharpPlus.SlashCommands" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.Application\bin\Release\net6.0\Jey.Application.dll" target="lib\net6.0\Jey.Application.dll" />
+  </files>
+</package>
