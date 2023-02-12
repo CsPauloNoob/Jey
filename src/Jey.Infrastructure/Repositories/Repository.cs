@@ -34,6 +34,7 @@ namespace Jey.Infrastructure.Repositories
         public virtual void Save(T obj)
         {
             _context.Set<T>().Add(obj);
+            _context.SaveChangesAsync();
         }
     }
 }

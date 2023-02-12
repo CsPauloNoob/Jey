@@ -18,7 +18,13 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Jey.Application\Jey.Application.csproj" />
-    <ProjectReference Include="..\jey.DI\jey.DI.csproj" />
+    <ProjectReference Include="..\Jey.DI\Jey.DI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Settings.job">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

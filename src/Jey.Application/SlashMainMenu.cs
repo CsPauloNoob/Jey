@@ -48,7 +48,7 @@ namespace Jey.Application
 
             if(_userService.Register(ctx.User.Id, ctx.User.Username).Result)
             {
-                new DiscordWebhookBuilder().WithContent("registrado com sucesso");
+                await ctx.EditResponseAsync( new DiscordWebhookBuilder().WithContent("registrado com sucesso"));
             }
 
         }
