@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sojDzZ/GKShfeUkPVvXXhfuCFnTDpt5Y51Znd+Oum+hrUv3dqpZlhrSxOuGt+ew890G3rIvMMfzH8QQ5+bf2yA==",
+  "dgSpecHash": "T6GDGBWZ2Nxh2xCm3B+PVNRnOw99oYnALmJ4lCl6lGJwWQ0WO+k+Ylf+JgYS62HiShOswKstjpZUhcwwbahmuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\T-GAMER\\Documents\\PropjetosVS2022\\Jey\\src\\jey.DI\\jey.DI.csproj",
+  "projectFilePath": "C:\\Users\\T-GAMER\\Documents\\PropjetosVS2022\\Jey\\src\\Jey.DI\\Jey.DI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T-GAMER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\T-GAMER\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",

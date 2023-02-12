@@ -1,12 +1,6 @@
-﻿using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DSharpPlus;
+﻿using DSharpPlus;
 using DSharpPlus.SlashCommands;
 using Jey.Application;
-using Jey.DI;
-using Jey.Infrastructure.Contexts;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Jey.StartUp

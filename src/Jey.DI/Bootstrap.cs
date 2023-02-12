@@ -1,7 +1,5 @@
 ﻿using Jey.Domain.Services;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.EntityFrameworkCore;
-using Jey.Infrastructure.Contexts;
 using Jey.Infrastructure.Repositories;
 using Jey.Domain;
 using Jey.Domain.Models;

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "jey.DI/1.0.0": {
+      "Jey.DI/1.0.0": {
         "dependencies": {
           "Jey.Domain": "1.0.0",
           "Jey.Infrastructure": "1.0.0",
@@ -16,7 +16,7 @@
           "Microsoft.Extensions.DependencyInjection": "7.0.0"
         },
         "runtime": {
-          "jey.DI.dll": {}
+          "Jey.DI.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -379,7 +379,7 @@
     }
   },
   "libraries": {
-    "jey.DI/1.0.0": {
+    "Jey.DI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
