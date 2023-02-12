@@ -1,6 +1,7 @@
 ﻿using DSharpPlus;
 using DSharpPlus.SlashCommands;
 using Jey.Application;
+using Jey.DI;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Jey.StartUp
@@ -11,7 +12,7 @@ namespace Jey.StartUp
         public Start()
         {
             var services = new ServiceCollection();
-            Jey.DI.Bootstrap.Configure(services);
+            Bootstrap.Configure(services);
 
             var client = ConfigureClient().GetAwaiter().GetResult();
 

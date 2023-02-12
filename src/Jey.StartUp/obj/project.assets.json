@@ -1831,7 +1831,7 @@
           "bin/placeholder/Jey.Application.dll": {}
         }
       },
-      "jey.DI/1.0.0": {
+      "Jey.DI/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1842,10 +1842,10 @@
           "Microsoft.Extensions.DependencyInjection": "7.0.0"
         },
         "compile": {
-          "bin/placeholder/jey.DI.dll": {}
+          "bin/placeholder/Jey.DI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/jey.DI.dll": {}
+          "bin/placeholder/Jey.DI.dll": {}
         }
       },
       "Jey.Domain/1.0.0": {
@@ -5425,10 +5425,10 @@
       "path": "../Jey.Application/Jey.Application.csproj",
       "msbuildProject": "../Jey.Application/Jey.Application.csproj"
     },
-    "jey.DI/1.0.0": {
+    "Jey.DI/1.0.0": {
       "type": "project",
-      "path": "../jey.DI/jey.DI.csproj",
-      "msbuildProject": "../jey.DI/jey.DI.csproj"
+      "path": "../Jey.DI/Jey.DI.csproj",
+      "msbuildProject": "../Jey.DI/Jey.DI.csproj"
     },
     "Jey.Domain/1.0.0": {
       "type": "project",
@@ -5446,8 +5446,8 @@
       "DsharpPlus >= 4.3.0",
       "DsharpPlus.SlashCommands >= 4.3.0",
       "Jey.Application >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
-      "jey.DI >= 1.0.0"
+      "Jey.DI >= 1.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.0"
     ]
   },
   "packageFolders": {
