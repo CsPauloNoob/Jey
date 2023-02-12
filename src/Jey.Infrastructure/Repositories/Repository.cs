@@ -1,4 +1,5 @@
 ﻿using Jey.Domain;
+using Jey.Domain.Interfaces;
 using Jey.Infrastructure.Contexts;
 using System;
 using System.Collections.Generic;

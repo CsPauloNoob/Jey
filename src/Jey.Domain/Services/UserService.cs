@@ -1,4 +1,5 @@
-﻿using Jey.Domain.Models;
+﻿using Jey.Domain.Interfaces;
+using Jey.Domain.Models;
 using System.Linq;
 
 namespace Jey.Domain.Services

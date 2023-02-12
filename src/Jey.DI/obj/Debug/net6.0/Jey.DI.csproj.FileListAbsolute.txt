@@ -1,0 +1,17 @@
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.DI.deps.json
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.DI.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.DI.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.Domain.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.Infrastructure.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.Domain.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\bin\Debug\net6.0\Jey.Infrastructure.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.csproj.AssemblyReference.cache
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.AssemblyInfoInputs.cache
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.AssemblyInfo.cs
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.csproj.CoreCompileInputs.cache
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.csproj.CopyComplete
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\refint\Jey.DI.dll
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\Jey.DI.pdb
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.DI\obj\Debug\net6.0\ref\Jey.DI.dll
