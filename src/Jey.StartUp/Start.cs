@@ -12,7 +12,7 @@ namespace Jey.StartUp
         public Start()
         {
             var services = new ServiceCollection();
-            Bootstrap.Configure(services);
+            BootStrap.Configure(services);
 
             var client = ConfigureClient().GetAwaiter().GetResult();
 
