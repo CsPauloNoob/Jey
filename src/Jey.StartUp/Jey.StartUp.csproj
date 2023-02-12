@@ -18,7 +18,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Jey.Application\Jey.Application.csproj" />
-    <ProjectReference Include="..\Jey.DI\Jey.DI.csproj" />
   </ItemGroup>
 
   <ItemGroup>
