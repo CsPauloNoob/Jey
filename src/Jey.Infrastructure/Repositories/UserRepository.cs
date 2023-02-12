@@ -30,10 +30,5 @@ namespace Jey.Infrastructure.Repositories
         {
             return _context.User.ToListAsync().Result;
         }
-
-        public override void Save(User user)
-        {
-            _context.User.Add(user);
-        }
     }
 }

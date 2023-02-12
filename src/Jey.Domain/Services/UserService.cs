@@ -1,4 +1,5 @@
 ﻿using Jey.Domain.Models;
+using System.Linq;
 
 namespace Jey.Domain.Services
 {
@@ -19,10 +20,17 @@ namespace Jey.Domain.Services
         }
 
         //TODO: passar user para registro e verificar se ele existe
-        /*public Task<bool> Register()
+        public Task<bool> Register(ulong id, string userName)
         {
-            if(_userRepository.GetById()
-        }*/
+            if(_userRepository.GetById(id) != null)
+            {
+                _userRepository.Save(new User(id, userName));
 
+                return Task.FromResult(true);
+            }
+
+            else 
+                return Task.FromResult(false);
+        }
     }
 }

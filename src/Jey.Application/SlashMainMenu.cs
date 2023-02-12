@@ -46,6 +46,10 @@ namespace Jey.Application
         {
             await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
 
+            if(_userService.Register(ctx.User.Id, ctx.User.Username).Result)
+            {
+                new DiscordWebhookBuilder().WithContent("registrado com sucesso");
+            }
 
         }
     }

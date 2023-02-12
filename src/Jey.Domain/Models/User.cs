@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Jey.Domain.Models
 {
-    public class User :Commons
+    public class User : Commons
     {
         public ulong UserId { get; set; }
 
@@ -19,5 +19,17 @@ namespace Jey.Domain.Models
         public uint Jcoin { get; set; }
 
         public uint Scoin { get; set; }
+
+
+
+
+        public User(ulong id, string userName)
+        {
+            UserId = id;
+            UserName = userName;
+            RegisterDate = DateTime.Now.Date;
+            Jcoin = 0;
+            Scoin = 1500;
+        }
     }
 }
