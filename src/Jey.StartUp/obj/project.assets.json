@@ -39,6 +39,23 @@
           }
         }
       },
+      "DSharpPlus.CommandsNext/4.3.0": {
+        "type": "package",
+        "dependencies": {
+          "DSharpPlus": "4.3.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "DSharpPlus.Interactivity/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1820,6 +1837,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DSharpPlus.CommandsNext": "4.3.0",
           "DsharpPlus": "4.3.0",
           "DsharpPlus.Interactivity": "4.3.0",
           "DsharpPlus.SlashCommands": "4.3.0",
@@ -1903,6 +1921,20 @@
         "dsharpplus.png",
         "lib/netstandard2.0/DSharpPlus.dll",
         "lib/netstandard2.0/DSharpPlus.xml"
+      ]
+    },
+    "DSharpPlus.CommandsNext/4.3.0": {
+      "sha512": "Cr4t6hPDJOD/SorlNaviU8/6VDH/vl5XByTWadlMuvMVXYV1R7j5J+1MK+wr0bcyhX4oztwHRQ+OcPKTClXbQA==",
+      "type": "package",
+      "path": "dsharpplus.commandsnext/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dsharpplus.commandsnext.4.3.0.nupkg.sha512",
+        "dsharpplus.commandsnext.nuspec",
+        "dsharpplus.png",
+        "lib/netstandard2.0/DSharpPlus.CommandsNext.dll",
+        "lib/netstandard2.0/DSharpPlus.CommandsNext.xml"
       ]
     },
     "DSharpPlus.Interactivity/4.3.0": {

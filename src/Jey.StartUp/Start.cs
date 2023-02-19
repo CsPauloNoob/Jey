@@ -1,6 +1,7 @@
 ﻿using DSharpPlus;
+using DSharpPlus.CommandsNext;
 using DSharpPlus.SlashCommands;
-using Jey.Application;
+using Jey.Application.Commands;
 using Jey.DI;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,24 +15,35 @@ namespace Jey.StartUp
             var services = new ServiceCollection();
             BootStrap.Configure(services);
 
-            var client = ConfigureClient().GetAwaiter().GetResult();
+            var client = ConfigureClient(services).GetAwaiter().GetResult();
 
             RunBot(client).GetAwaiter().GetResult();
         }
 
-        async Task<DiscordClient> ConfigureClient()
+        async Task<DiscordClient> ConfigureClient(ServiceCollection services)
         {
 
             var Client = new DiscordClient(new DiscordConfiguration()
             {
                 Intents = DiscordIntents.All,
                 AutoReconnect = true,
-                Token = Environment.GetEnvironmentVariable("BOT_TEST", EnvironmentVariableTarget.User),
+                Token = Environment.GetEnvironmentVariable("BOT_TEST"),
                 TokenType = TokenType.Bot
             });
 
-            var slash = Client.UseSlashCommands();
+            var cmd = Client.UseCommandsNext(new CommandsNextConfiguration()
+            {
+                StringPrefixes = new[] { "!" },
+                Services = services.BuildServiceProvider()
+            }) ;
+
+            var slash = Client.UseSlashCommands(new SlashCommandsConfiguration
+            {
+                Services = services.BuildServiceProvider()
+            });
+
             slash.RegisterCommands<SlashMainMenu>();
+            cmd.RegisterCommands<TextCommand>();
 
             return await Task.FromResult(Client);
         }

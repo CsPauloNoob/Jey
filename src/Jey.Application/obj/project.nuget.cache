@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "xGQmZqbAkWwwhgjEh0JMoFSzGEGjNYQ6we3o6mUCrAvobTJV5bJMIfepMZckMb3pMrbGdezHubjqNqhAhkYd5w==",
+  "dgSpecHash": "U0UpjL1QGKueJy4u1T4dc7CDqZUioWzy5mmWuaQOba4H69xyiewE6V8KOfwTcfoEl5uYr9X5tzfx6wb7CbGTWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\T-GAMER\\Documents\\PropjetosVS2022\\Jey\\src\\Jey.Application\\Jey.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\T-GAMER\\.nuget\\packages\\concurrenthashset\\1.1.0\\concurrenthashset.1.1.0.nupkg.sha512",
     "C:\\Users\\T-GAMER\\.nuget\\packages\\dsharpplus\\4.3.0\\dsharpplus.4.3.0.nupkg.sha512",
+    "C:\\Users\\T-GAMER\\.nuget\\packages\\dsharpplus.commandsnext\\4.3.0\\dsharpplus.commandsnext.4.3.0.nupkg.sha512",
     "C:\\Users\\T-GAMER\\.nuget\\packages\\dsharpplus.interactivity\\4.3.0\\dsharpplus.interactivity.4.3.0.nupkg.sha512",
     "C:\\Users\\T-GAMER\\.nuget\\packages\\dsharpplus.slashcommands\\4.3.0\\dsharpplus.slashcommands.4.3.0.nupkg.sha512",
     "C:\\Users\\T-GAMER\\.nuget\\packages\\emzi0767.common\\2.6.2\\emzi0767.common.2.6.2.nupkg.sha512",

@@ -23,9 +23,9 @@ namespace Jey.Domain.Services
         //TODO: passar user para registro e verificar se ele existe
         public Task<bool> Register(ulong id, string userName)
         {
-            if(_userRepository.GetById(id) != null)
+            if(_userRepository.GetById(id).Result == null)
             {
-                _userRepository.Save(new User(id, userName));
+                _userRepository.Create(new User(id, userName));
 
                 return Task.FromResult(true);
             }

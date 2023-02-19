@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Jey.Domain
+namespace Jey.Application.Events
 {
-    public class Commons
+    public class DetectGuilds
     {
-        public ulong Id { get; set; }
+
     }
 }

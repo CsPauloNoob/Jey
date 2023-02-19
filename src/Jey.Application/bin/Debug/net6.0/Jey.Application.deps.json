@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Jey.Application/1.0.0": {
         "dependencies": {
+          "DSharpPlus.CommandsNext": "4.3.0",
           "DSharpPlus": "4.3.0",
           "DSharpPlus.Interactivity": "4.3.0",
           "DSharpPlus.SlashCommands": "4.3.0",
@@ -39,6 +40,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/DSharpPlus.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "DSharpPlus.CommandsNext/4.3.0": {
+        "dependencies": {
+          "DSharpPlus": "4.3.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {
             "assemblyVersion": "4.3.0.0",
             "fileVersion": "4.3.0.0"
           }
@@ -733,6 +746,13 @@
       "sha512": "sha512-XE++PG6ITT4w3WL4K9zBpMYU29holXSSB0dwVDL4S2muwi2BiD6pGta5kCNm1VAKkaKM+0SsUB7RljGMGKW36g==",
       "path": "dsharpplus/4.3.0",
       "hashPath": "dsharpplus.4.3.0.nupkg.sha512"
+    },
+    "DSharpPlus.CommandsNext/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Cr4t6hPDJOD/SorlNaviU8/6VDH/vl5XByTWadlMuvMVXYV1R7j5J+1MK+wr0bcyhX4oztwHRQ+OcPKTClXbQA==",
+      "path": "dsharpplus.commandsnext/4.3.0",
+      "hashPath": "dsharpplus.commandsnext.4.3.0.nupkg.sha512"
     },
     "DSharpPlus.Interactivity/4.3.0": {
       "type": "package",

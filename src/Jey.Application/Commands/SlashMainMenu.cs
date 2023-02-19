@@ -3,7 +3,7 @@ using DSharpPlus;
 using DSharpPlus.SlashCommands;
 using Jey.Domain.Services;
 
-namespace Jey.Application
+namespace Jey.Application.Commands
 {
     public class SlashMainMenu : ApplicationCommandModule
     {
@@ -46,9 +46,9 @@ namespace Jey.Application
         {
             await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
 
-            if(_userService.Register(ctx.User.Id, ctx.User.Username).Result)
+            if (_userService.Register(ctx.User.Id, ctx.User.Username).Result)
             {
-                await ctx.EditResponseAsync( new DiscordWebhookBuilder().WithContent("registrado com sucesso"));
+                await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent("registrado com sucesso"));
             }
 
         }

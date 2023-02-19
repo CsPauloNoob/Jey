@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Jey.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,7 @@ namespace Jey.Domain.Interfaces
 {
     public interface IRepository<T>
     {
-        public T GetById(ulong id);
-
-        public List<T> GetAll();
-
-        public void Save(T obj);
+        Task Create(T obj);
+        Task<T> GetById(ulong id);
     }
 }

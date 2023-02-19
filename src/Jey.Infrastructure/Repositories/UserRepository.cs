@@ -1,4 +1,5 @@
 ﻿using Jey.Domain;
+using Jey.Domain.Interfaces;
 using Jey.Domain.Models;
 using Jey.Infrastructure.Contexts;
 using Microsoft.EntityFrameworkCore;
@@ -10,25 +11,37 @@ using System.Threading.Tasks;
 
 namespace Jey.Infrastructure.Repositories
 {
-    public class UserRepository : Repository<User>
+    public class UserRepository : IRepository<User> 
     {
+        private readonly JeyContext _context;
 
-        public UserRepository(JeyContext context) : base(context)
+        public UserRepository(JeyContext context)
         {
+            _context = context;
+        }
 
+        public async Task Create(User user)
+        {
+            await _context.User.AddAsync(user);
+
+            await _context.SaveChangesAsync();
         }
 
 
-        public override User GetById(ulong id)
+        public async Task<User>? GetById(ulong id)
         {
-            var user = _context.User.FindAsync(id).Result;
+            try
+            {
+                var user = _context.User.Where(x => x.Id == id).FirstOrDefaultAsync().Result;
 
-            return user;
-        }
+                return user;
+            }
 
-        public override List<User> GetAll()
-        {
-            return _context.User.ToListAsync().Result;
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

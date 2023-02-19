@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="DsharpPlus" Version="4.3.0" />
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.3.0" />
     <PackageReference Include="DsharpPlus.Interactivity" Version="4.3.0" />
     <PackageReference Include="DsharpPlus.SlashCommands" Version="4.3.0" />
   </ItemGroup>

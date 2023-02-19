@@ -64,3 +64,4 @@ C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.StartUp\bin\Debug\net6.0\
 C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.StartUp\bin\Debug\net6.0\Humanizer.dll
 C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.StartUp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.StartUp\bin\Debug\net6.0\Settings.job
+C:\Users\T-GAMER\Documents\PropjetosVS2022\Jey\src\Jey.StartUp\bin\Debug\net6.0\DSharpPlus.CommandsNext.dll

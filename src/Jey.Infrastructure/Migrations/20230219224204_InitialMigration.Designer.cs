@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Jey.Infrastructure.Migrations
 {
     [DbContext(typeof(JeyContext))]
-    [Migration("20230205234620_FixMigration")]
-    partial class FixMigration
+    [Migration("20230219224204_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -63,7 +63,7 @@ namespace Jey.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Guilds");
+                    b.ToTable("Guild");
                 });
 
             modelBuilder.Entity("Jey.Domain.Models.Item", b =>
@@ -84,7 +84,7 @@ namespace Jey.Infrastructure.Migrations
 
                     b.HasKey("ItemKeyOrLink");
 
-                    b.ToTable("items");
+                    b.ToTable("Item", (string)null);
                 });
 
             modelBuilder.Entity("Jey.Domain.Models.SalesHistory", b =>
@@ -118,14 +118,15 @@ namespace Jey.Infrastructure.Migrations
 
             modelBuilder.Entity("Jey.Domain.Models.User", b =>
                 {
-                    b.Property<ulong>("UserId")
+                    b.Property<ulong>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
                     b.Property<uint>("Jcoin")
                         .HasColumnType("INTEGER");
 
-                    b.Property<DateTime>("RegisterDate")
+                    b.Property<string>("RegisterDate")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<uint>("Scoin")
@@ -135,9 +136,9 @@ namespace Jey.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.HasKey("UserId");
+                    b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("User", (string)null);
                 });
 
             modelBuilder.Entity("Jey.Domain.Models.Announcements", b =>

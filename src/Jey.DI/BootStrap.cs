@@ -13,7 +13,7 @@ namespace Jey.DI
         {
             services.AddScoped(typeof(UserService));
             services.AddScoped(typeof(JeyContext));
-            services.AddScoped(typeof(IRepository<User>), typeof(Repository<User>));
+            services.AddScoped(typeof(IRepository<User>) ,typeof(UserRepository));
         }
     }
 }
