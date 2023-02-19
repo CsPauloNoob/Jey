@@ -1,0 +1,25 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: debian-10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      
+      - name: Build project
+        run: dotnet build
+      
+      - name: SSH into VPS
+        uses: appleboy/ssh-action@master
+        with:
+          host: botmachine.vps-kinghost.net
+          username: root
+          key: ${{KEY_VPS}}
+          script: |
+            cd ../var/Jey/Jey.StartUp/bin/debug/net6.0
+            dotnet Jey.StartUp.dll
