@@ -19,7 +19,7 @@ jobs:
         with:
           host: botmachine.vps-kinghost.net
           username: root
-          key: ${{KEY_VPS}}
+          key: ${{secrets.KEY_VPS}}
           script: |
             cd ../var/Jey/Jey.StartUp/bin/debug/net6.0
             dotnet Jey.StartUp.dll
