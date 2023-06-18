@@ -19,12 +19,13 @@ namespace Jey.Application.Commands
         [SlashCommand("menu", "menu inicial")]
         async Task Menu(InteractionContext ctx)
         {
-            await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
+            await ctx.CreateResponseAsync(
+                InteractionResponseType.DeferredChannelMessageWithSource);
 
             var message = _userService.Message();
 
-            await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent(message));
-
+            await ctx.EditResponseAsync(
+                new DiscordWebhookBuilder().WithContent(message));
         }
 
 
@@ -32,11 +33,13 @@ namespace Jey.Application.Commands
         [SlashCommand("car", "a car")]
         async Task Car(InteractionContext ctx)
         {
-            await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
+            await ctx.CreateResponseAsync(
+                InteractionResponseType.DeferredChannelMessageWithSource);
 
             var message = _userService.Message();
 
-            await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent(message));
+            await ctx.EditResponseAsync(new DiscordWebhookBuilder()
+                .WithContent(message));
         }
 
 
@@ -44,11 +47,15 @@ namespace Jey.Application.Commands
         [SlashCommand("Registrar", "Olá, registre-se aqui")]
         async Task Register(InteractionContext ctx)
         {
-            await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource);
+            await ctx.CreateResponseAsync(
+                InteractionResponseType.DeferredChannelMessageWithSource);
 
-            if (_userService.Register(ctx.User.Id, ctx.User.Username).Result)
+
+            if (_userService.Register(ctx.User.Id,
+                ctx.User.Username).Result)
             {
-                await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent("registrado com sucesso"));
+                await ctx.EditResponseAsync(new DiscordWebhookBuilder()
+                    .WithContent("registrado com sucesso"));
             }
 
         }

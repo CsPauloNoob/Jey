@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="DsharpPlus" Version="4.3.0" />
+    <PackageReference Include="DsharpPlus.CommandsNext" Version="4.3.0" />
     <PackageReference Include="DsharpPlus.SlashCommands" Version="4.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

@@ -2,6 +2,7 @@
 using DSharpPlus.CommandsNext;
 using DSharpPlus.SlashCommands;
 using Jey.Application.Commands;
+using Jey.Application.Commands.TextCommands;
 using Jey.DI;
 using Microsoft.Extensions.DependencyInjection;
 

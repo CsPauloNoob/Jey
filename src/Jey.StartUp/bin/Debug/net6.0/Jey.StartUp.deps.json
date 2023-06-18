@@ -9,6 +9,7 @@
       "Jey.StartUp/1.0.0": {
         "dependencies": {
           "DSharpPlus": "4.3.0",
+          "DSharpPlus.CommandsNext": "4.3.0",
           "DSharpPlus.SlashCommands": "4.3.0",
           "Jey.Application": "1.0.0",
           "Jey.DI": "1.0.0",
